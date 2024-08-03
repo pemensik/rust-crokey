@@ -12,8 +12,6 @@ Summary:        Proc macros for the crokey crate
 License:        MIT
 URL:            https://crates.io/crates/crokey-proc_macros
 Source:         %{crates_source}
-# Manually created patch for downstream crate metadata changes
-Patch:          crokey-proc_macros-fix-metadata.diff
 
 BuildRequires:  cargo-rpm-macros >= 24
 
