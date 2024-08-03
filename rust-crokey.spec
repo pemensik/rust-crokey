@@ -7,11 +7,13 @@
 Name:           rust-crokey
 Version:        1.0.1
 Release:        %autorelease
-Summary:        Parse and describe keys - helping incorporate keybindings in terminal applications
+Summary:        Parse and describe keys in Rust terminal applications
 
 License:        MIT
 URL:            https://crates.io/crates/crokey
 Source:         %{crates_source}
+# Manually created patch for downstream crate metadata changes
+Patch:          crokey-fix-metadata.diff
 
 BuildRequires:  cargo-rpm-macros >= 24
 
